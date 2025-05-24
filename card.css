@@ -1,0 +1,47 @@
+/* Сгенериравано DeepSeek, и немного своего ( 1-2 стиля :) ) */
+.cards-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.card {
+    width: 320px;
+    flex-shrink: 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    height: auto;
+    display: block;
+}
+
+.card-text {
+    padding: 15px;
+}
+
+.card-text h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.card-text p {
+    margin: 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.card:target {
+  background-color: antiquewhite;
+}
+
+/* emmet карточки: .card>(img[alt="картинка"]+(.card-text>h1{название}+p{описание})) */

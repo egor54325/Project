@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "NotoSans";
+    src: url(./fonts/NotoSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Webdings";
+    src: url(./fonts/Webdings-Regular.ttf);
+}
+
+body {
+    font-family: "NotoSans";
+}
+
+header {
+    text-align: center;
+}
+
+.secret {
+    font-family: "Webdings";
+}
+
+.hide {
+    color: white
+}
+
+.hide:hover {
+    color: black
+}
+
+body {
+  scroll-behavior: smooth;
+}
