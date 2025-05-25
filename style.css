@@ -16,18 +16,6 @@ header {
     text-align: center;
 }
 
-.secret {
-    font-family: "Webdings";
-}
-
-.hide {
-    color: white
-}
-
-.hide:hover {
-    color: black
-}
-
 body {
   scroll-behavior: smooth;
 }
